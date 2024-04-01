@@ -31,6 +31,7 @@ public class HttpStatusChecker {
         } catch (IOException e) {
             System.err.println(e.getMessage());
         }
+
         try {
             String imageUrl3 = checker.getStatusImage(300);
             System.out.println("Image URL for status code 300: " + imageUrl3);
